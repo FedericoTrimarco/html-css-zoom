@@ -57,11 +57,11 @@ main{
     margin-top: 20px;
 }
 .gallery li{
-    width: 320px;
+    width: 350px;
     margin: 5px;
 }
 .card{
-    height: 200px;
+    height: 220px;
     position: relative;
 }
 .card img{

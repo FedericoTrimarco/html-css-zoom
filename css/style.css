@@ -36,6 +36,9 @@ body{
 .mg-right5{
     margin-right: 5px;
 }
+.mg-x25{
+    margin: 0 25px;
+}
 /*  */
 
 /* HEADER */
@@ -76,10 +79,37 @@ main{
 .card span i{
     font-size: 20px;
 }
+.card.speaker img{
+    border: 5px solid #ffff8f;
+}
 
 
 /* FOOTER */
 footer{
-    height: 50px;
-    background-color: #ccc;
+    justify-content: space-between;
+}
+.footer-content{
+    list-style: none;
+    padding: 10px 0;
+}
+.footer-icon{
+    text-align: center;
+    align-items: center;
+}
+.footer-icon .icon{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footer-icon .arrow{
+    margin-left: 25px;
+}
+.footer-icon.active .icon{
+    color: #4cc800;
+}
+footer .btn{
+    color: #ff5e47;
+    padding: 0 25px;
+    border-radius: 0;
+    font-size: 1em;
 }

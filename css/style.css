@@ -95,6 +95,7 @@ footer{
 .footer-icon{
     text-align: center;
     align-items: center;
+    cursor: pointer;
 }
 .footer-icon .icon{
     display: block;

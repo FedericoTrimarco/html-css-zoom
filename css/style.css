@@ -4,113 +4,107 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: white;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    color: #fff;
     background-color: #000;
     height: 100vh;
-    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
+
 /* UTILITIES */
 /* display */
 .disp-flex{
     display: flex;
 }
-
 /* button */
 .btn{
     padding: 5px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-    color: white;
-    cursor: pointer;
-}
-/* padding */
-.pd-15{
-    padding: 15px;
+    background-color: #3b3b3b;
+    font-size: 1em;
 }
 /* margin */
 .mg-right5{
     margin-right: 5px;
 }
-.mg-x25{
-    margin: 0 25px;
+/* border */
+.speaker{
+    border: 5px solid #ffff8f;
+}
+/* color */
+.active{
+    color: #4cc800;
 }
 /*  */
-
 /* HEADER */
-header {
-    text-align: right;;
+header{
+    padding: 20px;
+    text-align: right;
 }
+
 /* MAIN */
 main{
     flex-grow: 1;
     overflow: auto;
 }
-.gallery{
+main .gallery{
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
     margin-top: 20px;
 }
 .gallery li{
-    width: 350px;
+    width: 450px;
     margin: 5px;
 }
-.card{
-    height: 220px;
+.card-img{
+    height: 250px;
     position: relative;
 }
-.card img{
+.card-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.card span{
+.card-text{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px;
 }
-.card span i{
-    font-size: 20px;
-}
-.card.speaker img{
-    border: 5px solid #ffff8f;
-}
-
 
 /* FOOTER */
 footer{
+    display: flex;
     justify-content: space-between;
 }
 .footer-content{
+    display: flex;
     list-style: none;
     padding: 10px 0;
 }
 .footer-icon{
-    text-align: center;
     align-items: center;
-    cursor: pointer;
+    text-align: center;
+    margin: 0 20px;
+    /* display: flex; */
 }
 .footer-icon .icon{
     display: block;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 .footer-icon .arrow{
-    margin-left: 25px;
-}
-.footer-icon.active .icon{
-    color: #4cc800;
+    margin-left: 20px;
 }
 footer .btn{
     color: #ff5e47;
     padding: 0 25px;
     border-radius: 0;
-    font-size: 1em;
 }

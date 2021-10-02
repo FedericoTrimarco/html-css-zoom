@@ -13,7 +13,9 @@ body{
     flex-direction: column;
     font-size: 20px;
 }
-
+i{
+    cursor: pointer;
+}
 /* UTILITIES */
 /* display */
 .disp-flex{
